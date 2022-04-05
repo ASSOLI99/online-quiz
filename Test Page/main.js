@@ -53,7 +53,7 @@ async function get(){
 get()
 function onStart(){
     if(path==1){
-        startingMinutes=questions1.length/4;
+        startingMinutes=questions1.length/2;
         document.querySelector(".path1").classList.add("show");
         document.querySelector(".path2").classList.add("hide");
         document.querySelector(".path3").classList.add("hide");
@@ -71,7 +71,7 @@ questions1[active].classList.remove("hide")
 questions1[active].classList.add("show")
 myAnswer = [].slice.call(questions1[active].children[1].children);
 }else if(path==2){
-    startingMinutes=questions2.length/4;
+    startingMinutes=questions2.length/2;
     document.querySelector(".path1").classList.add("hide");
     document.querySelector(".path2").classList.add("show");
     document.querySelector(".path3").classList.add("hide");
@@ -89,7 +89,7 @@ questions2[0].classList.remove("hide")
 questions2[0].classList.add("show")
 myAnswer = [].slice.call(questions2[active].children[1].children);
 }else if(path==3){
-    startingMinutes=questions3.length/4;
+    startingMinutes=questions3.length/2;
         document.querySelector(".path1").classList.add("hide");
         document.querySelector(".path2").classList.add("hide");
         document.querySelector(".path3").classList.add("show");
