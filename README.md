@@ -11,4 +11,4 @@
  <h4> https://miro.com/app/board/uXjVO_rpPhA=/?invite_link_id=370814337733 </h4>
  
   <h2>💻live server</h2>
-   <h4> https://miro.com/app/board/uXjVO_rpPhA=/?invite_link_id=370814337733 </h4>
+   <h4> https://assoli99.github.io/online-quiz/ </h4>
