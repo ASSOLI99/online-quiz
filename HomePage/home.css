@@ -5,7 +5,7 @@
 }
 body{ 
     
-    
+    height: 100vh;
     background-color: #eaedfe; 
     font-family:  'Heebo', sans-serif, Arial;
     width: 100%;
