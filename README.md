@@ -13,7 +13,7 @@
   <h2>💻live server</h2>
    <h4> https://assoli99.github.io/online-quiz/ </h4>
 
- <h4> 🛠 &nbsp;We used</h4>
+ <h4> 🛠 &nbsp;We use</h4>
 
 - &nbsp;
   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
