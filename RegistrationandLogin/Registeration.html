@@ -100,7 +100,7 @@ main === #eaedfe-->
                                 <label for="pass">  </label>
                                 <input type="password" class="form-control" name="pass" id="pass" placeholder="Password"    required/>
                                 <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
-                                <small class="pwhint" class="form-text text-muted"> The password should contain At least 8 characters, uppercase and lowercase letters,numbers,and at least one special character</small>
+                                <small class="pwhint" class="form-text text-muted"> The password should contain At least 8 characters, at least one character, one number</small>
                                 <div class="fielderror"></div>
                                 <div class="validate"></div>
                                 <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" -->
@@ -196,7 +196,7 @@ main === #eaedfe-->
         document.getElementById("btn").addEventListener('click',function(){
         let pass1 = pass.value;
         let pass2 = repass.value;
-        let regpass=/^(?=.*\d.*\d)(?=.*[A-Z])(?=.*[@#$%\^&+=]).{8,12}$/;
+        let regpass=/^.*(?=.{8,})(?=.*\d)(?=.*[a-zA-Z]).*$/;
         function validateEmail()
         {
         let regemail=/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
